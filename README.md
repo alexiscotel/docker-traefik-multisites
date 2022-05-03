@@ -4,7 +4,7 @@
 * http: [Host several sites in a single box with docker and traefik v2, http](http://javier.io/blog/en/2020/12/01/host-several-sites-in-a-single-box-with-docker-and-traefik-http.html)
 * https: [Host several sites in a single box with docker and traefik v2, https](http://javier.io/blog/en/2020/12/01/host-several-sites-in-a-single-box-with-docker-and-traefik-https.html)
 
-## marche à suivre
+## commands
 ```
 cd traefik
 docker-compose up -d
