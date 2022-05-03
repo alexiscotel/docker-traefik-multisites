@@ -17,6 +17,8 @@ docker-compose up -d
 
 
 ## Information
+* change email in `traefik/docker-compose.ssl.yml` line 14
+* create file `acme.json` then change his permission `chmod 600 acme.json` (use file properties for windows)
 
 /!\ don't forget to edit hosts file in dev mode
 ```
@@ -28,6 +30,6 @@ docker-compose up -d
 
 the websites are accessible at the addresses
 ```
-http://site1.com
-http://site2.com
+https://site1.com
+https://site2.com
 ```
