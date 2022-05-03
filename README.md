@@ -17,10 +17,10 @@ docker-compose -f docker-compose.ssl.yml up -d
 
 
 ## Information
-* change email in `traefik/docker-compose.ssl.yml` line 14
-* create file `acme.json` then change permission `chmod 600 acme.json` (use file properties for windows)
+* Change email in `traefik/docker-compose.ssl.yml` line 14
+* Create file `acme.json` then change permission `chmod 600 acme.json` (use file properties for windows)
 
-/!\ don't forget to edit hosts file in dev mode
+Don't forget to edit hosts file in dev mode
 ```
 127.0.0.1 site1.com
 127.0.0.1 site2.com
