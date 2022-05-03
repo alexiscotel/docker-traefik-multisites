@@ -7,18 +7,18 @@
 ## commands
 ```
 cd traefik
-docker-compose up -d
+docker-compose -f docker-compose.ssl.yml up -d
 cd ../site1
-docker-compose up -d
+docker-compose -f docker-compose.ssl.yml up -d
 cd ../site2
-docker-compose up -d
+docker-compose -f docker-compose.ssl.yml up -d
 ```
 
 
 
 ## Information
 * change email in `traefik/docker-compose.ssl.yml` line 14
-* create file `acme.json` then change his permission `chmod 600 acme.json` (use file properties for windows)
+* create file `acme.json` then change permission `chmod 600 acme.json` (use file properties for windows)
 
 /!\ don't forget to edit hosts file in dev mode
 ```
