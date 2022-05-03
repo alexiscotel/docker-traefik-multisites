@@ -4,8 +4,6 @@ services:
     www:
         build: php
         container_name: www_site2
-        # ports:
-        #   - "8751:80"
         volumes:
             - ./php/vhosts:/etc/apache2/sites-enabled
             - ./:/var/www
