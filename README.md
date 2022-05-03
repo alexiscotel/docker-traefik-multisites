@@ -18,11 +18,11 @@ docker-compose up -d
 
 ## Information
 
-> /!\ don't forget to edit hosts file in dev mode
->>```
->>127.0.0.1 site1.com
+/!\ don't forget to edit hosts file in dev mode
+```
+127.0.0.1 site1.com
 127.0.0.1 site2.com
->>```
+```
 
 ## Websites access
 
