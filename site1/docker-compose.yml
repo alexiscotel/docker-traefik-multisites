@@ -19,5 +19,4 @@ services:
 networks:
     site1network:
     traefik:
-        external:
-            name: traefik_global
+        name: traefik_global
